@@ -18,7 +18,13 @@ const JustForYouSingleProduct = ({ product }) => {
   };
 
   return (
-    <div onClick={handleProductDetails} className="cursor-pointer">
+    <div
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1500"
+      onClick={handleProductDetails}
+      className="cursor-pointer"
+    >
       <div className="bg-white  mx-auto shadow-md hover:scale-105 hover:shadow-xl duration-500 rounded-md">
         <img
           src={product.picture}

@@ -24,7 +24,7 @@ const Home = () => {
       <Flashsell />
       <ProductSlide className={`mt-12`} />
       <CatagoryProducts />
-      {/* <FeaturedProducts className={`mt-12 mb-20`} /> */}
+      <FeaturedProducts className={`mt-12 mb-20`} />
       <JustForYou />
     </div>
   );
